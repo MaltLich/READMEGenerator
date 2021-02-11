@@ -1,6 +1,5 @@
 const prompt = require("inquirer").createPromptModule();
 const fs = require("fs");
-
 const api = require("./utils/api.js");
 const generateMarkdown = require("./utils/generateMarkdown.js");
 
@@ -60,7 +59,7 @@ const init = async (_) => {
       {
         type: "input",
         name: "qs",
-        message: "Any questions?",
+        message: "Questions?",
       },
     ])
   );
